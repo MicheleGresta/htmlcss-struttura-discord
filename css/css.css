@@ -1,0 +1,42 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+/* HEADER */
+#blocco1{  
+        background-color: rgb(56, 152, 241);
+        height: auto;
+        padding-top: 15px;
+        padding-bottom:15px;
+}
+#blocco2{ background-color: blue;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom:30px;
+}
+.flex{
+    display: flex;
+}
+.style-navbar{
+    margin: 0 auto;
+    
+    max-width: 1000px;}
+.grandezza-logo .grandezza-login{
+    flex-grow: 1;    
+}
+.grandezza-nav{
+    flex-grow: 3;
+    text-align: center;
+}
+header .style-navbar{
+    background-color: orange;
+    width: 100%;
+    padding: 10 10 10 10;
+}
+header .style-content{
+    width: 700px;
+    height: 400px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+/* FINE HEADER */
